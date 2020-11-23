@@ -14,6 +14,7 @@ img {
 
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: #19A1AD;
@@ -92,4 +93,10 @@ main {
 
 .info-card img {
     width: 35%;
+}
+
+.attribution {
+    text-align: center;
+    background-color: rgba(35, 178, 185, .5);
+    padding: 1rem 0;
 }
