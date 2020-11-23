@@ -18,7 +18,7 @@ body {
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: #19A1AD;
-    background-image: url(/profile-card-component-main/images/bg-pattern-top.svg), url(/profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: -26rem -40rem, 38rem 20rem;
     background-repeat: no-repeat, no-repeat;
     background-size: 80%, 70%;
@@ -97,6 +97,7 @@ main {
 
 .attribution {
     text-align: center;
+    color: #ffffff;
     background-color: rgba(35, 178, 185, .5);
-    padding: 1rem 0;
+    padding: .5rem 0;
 }
