@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #19A1AD;
+    background-image: url(/profile-card-component-main/images/bg-pattern-top.svg), url(/profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-position: -26rem -40rem, 38rem 20rem;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 80%, 70%;
+}
+
+main {
+    width: 330px; 
+    height: 360px;
+    margin: auto;
+}
+
+
+
+.card {
+    border-radius: 4%;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.card .info-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .info-top img {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin-top: -55px;
+}
+
+.card .info-top .name {
+    font-weight: 700;
+}
+
+.card .info-top .name span, .location {
+    color: #898A8C;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.card .info-top .location {
+    margin: 0;
+    font-size: 14px;
+}
+
+.card .info-top {
+    border-bottom: .3px solid rgba(137, 138, 140, .1);
+    padding-bottom: 20px;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-bottom .tag {
+    flex-basis: calc(33.3% - 10px);
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.info-bottom .tag span {
+    font-weight: 300;
+    color: #898A8C;
+    font-size: 12px;
+}
+
+.info-card img {
+    width: 35%;
+}
